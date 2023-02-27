@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+
+
+
+.navl{
+    @apply hidden md:flex items-center space-x-1;
+  }
+  
+  .navs{
+    @apply hidden;
+  }
+
+  .nav-item-l{
+    @apply py-4 px-2 text-gray-500 font-semibold hover:text-orange-600 transition duration-300;
+  }
+
+  .nav-item-l-a{
+    @apply py-4 px-2 text-orange-600 border-b-4 border-orange-500 font-semibold 
+  }
+
+  .btn-add-card{
+    @apply uppercase rounded-xl w-auto h-10 bg-orange-500 hover:bg-pink-500 hover:text-white  text-center pt-2;
+  }
+
+  .btn-buy{
+    @apply uppercase rounded-xl w-auto h-10 bg-pink-500 text-white  hover:bg-orange-500 hover:text-black text-center align-middle pt-2 mt-1
+  }
+
+  @tailwind utilities;
